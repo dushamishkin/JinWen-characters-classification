@@ -25,7 +25,7 @@
     1. Отсутствует код, но он элементарный
 2. Конвертировать изображения из RGBA (A - канал прозрачности) в RGB, из png в jpg
     1. `pure_pil_alpha_to_color()`
-3. Удалить шум с изображений с помощью гауссовского размытия (добавить пример)
+3. Удалить шум с изображений с помощью гауссовского размытия
     1. `apply_gauss()`
 4. Инвертировать картинки, на которых иероглифы изображены белым по черному, в формат черного по белому (см. пример)
     1. `is_too_black()`
@@ -34,8 +34,10 @@
 
 ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e546dfbe-b292-4024-a25e-ffdc5a0477d8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230106T191244Z&X-Amz-Expires=86400&X-Amz-Signature=6caca6a0f9940391917e22a5805e1a1925565b7093a8e5b172ffc75a864b4ae2&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 
-1. Избавиться от черных полос, возникающих при таком инвертировании (добавить пример)
+1. Избавиться от черных полос, возникающих при таком инвертировании
     1. `crop_borders()` + вспомогательные функции
+    
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/637cd2a9-c987-43c3-a065-123ecb7dc418/with_borders.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230106T192758Z&X-Amz-Expires=86400&X-Amz-Signature=0175645979561e7708033da26b464d806f2f271724c23a6dd6b8fb4862759570&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22with_borders.jpg%22&x-id=GetObject)
 2. Аугментировать изображения 4 различными способами одновременно:
     1. Fog, blur, noise, brightness and contrast
     2. Blur, noise, brightness, rotation, scaling
