@@ -17,7 +17,7 @@
 
 # Предобработка
 
-Файл: `preprocessing.py`
+Файл: `preprocessing.ipynb`
 
 ### Задачи и методы
 
