@@ -1,3 +1,11 @@
+# Current state of the project
+Parser code: `parser.py`
+Image preprocessing and augmentation: `preprocessing.ipynb`
+Baseline training: `baseline.ipynb`
+Dataset: [https://drive.google.com/file/d/1ypyhndsupRkYZ509cFzEi8mKTiMPPoSW/view?usp=sharing](https://drive.google.com/file/d/1ypyhndsupRkYZ509cFzEi8mKTiMPPoSW/view?usp=sharing)
+Wandb dashboard: https://wandb.ai/dushamishkin/baseline?workspace=user-dushamishkin
+
+
 # Baseline
 # Сбор данных
 
